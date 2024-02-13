@@ -42,12 +42,9 @@ export async function GET(request) {
             let productCategory = productCategoriesArray[0];
 
             const productImage = product.product.image_front_url
-            
-            return Response.json({ product })
 
-            //return Response.json({ Barcode: barcode, Name: productBrand, Brand: productBrand, category: productCategory, image: productImage })
+            return Response.json({ Barcode: barcode, Name: productBrand, Brand: productBrand, category: productCategory, image: productImage })
 
-            //return Response.json({ 'Type': product_type, 'Barcode': barcode })
 
 
 
